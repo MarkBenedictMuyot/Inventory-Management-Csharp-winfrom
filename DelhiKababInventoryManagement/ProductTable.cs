@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace DelhiKababInventoryManagement
 {
-    public partial class Product : Form
+    public partial class ProductTable : Form
     {
-        public Product()
+        public ProductTable()
         {
             InitializeComponent();
+        }
+
+        private void productgrid_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

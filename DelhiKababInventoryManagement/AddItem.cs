@@ -43,5 +43,15 @@ namespace DelhiKababInventoryManagement
         {
             this.Hide();
         }
+
+        private void AddItem_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

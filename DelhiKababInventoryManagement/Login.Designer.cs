@@ -37,6 +37,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.button6 = new System.Windows.Forms.Button();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -52,7 +53,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -65,6 +66,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(0)))), ((int)(((byte)(12)))));
+            this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.label3);
@@ -167,6 +169,23 @@
             this.panel2.Size = new System.Drawing.Size(450, 530);
             this.panel2.TabIndex = 1;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.button6.BackgroundImage = global::DelhiKababInventoryManagement.Properties.Resources.logout;
+            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button6.FlatAppearance.BorderSize = 0;
+            this.button6.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlLight;
+            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ControlLight;
+            this.button6.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.button6.Location = new System.Drawing.Point(402, 485);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(43, 40);
+            this.button6.TabIndex = 13;
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // linkLabel1
             // 
@@ -353,22 +372,12 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button6
+            // panel3
             // 
-            this.button6.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.button6.BackgroundImage = global::DelhiKababInventoryManagement.Properties.Resources.logout;
-            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlLight;
-            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ControlLight;
-            this.button6.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.button6.Location = new System.Drawing.Point(402, 485);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(43, 40);
-            this.button6.TabIndex = 13;
-            this.button6.UseVisualStyleBackColor = false;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.panel3.Location = new System.Drawing.Point(253, 275);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(350, 175);
+            this.panel3.TabIndex = 6;
             // 
             // Login
             // 
@@ -423,5 +432,6 @@
         private Button button3;
         private Button button4;
         private Button button6;
+        private Panel panel3;
     }
 }
