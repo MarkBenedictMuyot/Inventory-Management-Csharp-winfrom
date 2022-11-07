@@ -86,3 +86,7 @@ C:\Users\Mark\dev\DelhiKababInventoryManagement\DelhiKababInventoryManagement\bi
 C:\Users\Mark\dev\DelhiKababInventoryManagement\DelhiKababInventoryManagement\obj\Debug\net6.0-windows\DelhiKababInventoryManagement.csproj.CopyComplete
 C:\Users\Mark\dev\DelhiKababInventoryManagement\DelhiKababInventoryManagement\obj\Debug\net6.0-windows\DelhiKababInventoryManagement.AdminMainPanel.resources
 C:\Users\Mark\dev\DelhiKababInventoryManagement\DelhiKababInventoryManagement\obj\Debug\net6.0-windows\DelhiKababInventoryManagement.ProductTable.resources
+C:\Users\Mark\dev\DelhiKababInventoryManagement\DelhiKababInventoryManagement\obj\Debug\net6.0-windows\DelhiKababInventoryManagement.Inventory.resources
+C:\Users\Mark\dev\DelhiKababInventoryManagement\DelhiKababInventoryManagement\obj\Debug\net6.0-windows\DelhiKababInventoryManagement.Order.resources
+C:\Users\Mark\dev\DelhiKababInventoryManagement\DelhiKababInventoryManagement\obj\Debug\net6.0-windows\DelhiKababInventoryManagement.Supplier.resources
+C:\Users\Mark\dev\DelhiKababInventoryManagement\DelhiKababInventoryManagement\obj\Debug\net6.0-windows\DelhiKababInventoryManagement.AccountSetting.resources

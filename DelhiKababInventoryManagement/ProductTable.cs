@@ -26,5 +26,11 @@ namespace DelhiKababInventoryManagement
         {
 
         }
+
+        private void Add_Click(object sender, EventArgs e)
+        {
+            
+            
+        }
     }
 }

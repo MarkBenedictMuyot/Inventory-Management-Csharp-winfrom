@@ -40,6 +40,13 @@ namespace DelhiKababInventoryManagement
 
         private void iconButton5_Click(object sender, EventArgs e)
         {
+
+            Panel pnlContent = new Panel();
+            var setting = new AccountSetting();
+            setting.TopLevel = false;
+            panelContent.Controls.Add(setting);
+            setting.BringToFront();
+            setting.Show();
             panelcolor.Height = iconButton5.Height;
             panelcolor.Top = iconButton5.Top;
             lblTitleChildForm.Text = "User Account";
@@ -87,6 +94,13 @@ namespace DelhiKababInventoryManagement
 
         private void iconButton2_Click(object sender, EventArgs e)
         {
+            Panel pnlContent = new Panel();
+            var inventory = new Inventory();
+            inventory.TopLevel = false;
+            panelContent.Controls.Add(inventory);
+            inventory.BringToFront();
+            inventory.Show();
+
             panelcolor.Height = iconButton2.Height;
             panelcolor.Top = iconButton2.Top;
             lblTitleChildForm.Text = "Inventory";
@@ -99,6 +113,12 @@ namespace DelhiKababInventoryManagement
 
         private void iconButton3_Click(object sender, EventArgs e)
         {
+            Panel pnlContent = new Panel();
+            var supplier = new Supplier();
+            supplier.TopLevel = false;
+            panelContent.Controls.Add(supplier);
+            supplier.BringToFront();
+            supplier.Show();
             panelcolor.Height = iconButton3.Height;
             panelcolor.Top = iconButton3.Top;
             lblTitleChildForm.Text = "Supplier";
@@ -111,6 +131,14 @@ namespace DelhiKababInventoryManagement
 
         private void iconButton4_Click(object sender, EventArgs e)
         {
+
+            Panel pnlContent = new Panel();
+            var order = new Order();
+            order.TopLevel = false;
+            panelContent.Controls.Add(order);
+            order.BringToFront();
+           order.Show();
+
             panelcolor.Height = iconButton4.Height;
             panelcolor.Top = iconButton4.Top;
             lblTitleChildForm.Text = "Order List";
