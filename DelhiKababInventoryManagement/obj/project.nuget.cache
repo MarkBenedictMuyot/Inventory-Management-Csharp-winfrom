@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rD7VERBFKpzIcUcNkKo1tGgIADShx4fnfxUKA/9zog8rpBh5oevDdiovBJqRQBSXDXH9FxcQHW2BIwJQXkB91A==",
+  "dgSpecHash": "FKrIl+9Ue3L8IVh7dvP+BxHgq98EcS2zQikgC1vn+sFWeU8AXP/1uUEBxJhZdgtDF2sdxSam46f6DmTEUqoi0A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mark\\dev\\DelhiKababInventoryManagement\\DelhiKababInventoryManagement\\DelhiKababInventoryManagement.csproj",
+  "projectFilePath": "C:\\Users\\Mark\\OneDrive\\Desktop\\DelhiKababInventoryManagement\\DelhiKababInventoryManagement\\DelhiKababInventoryManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mark\\.nuget\\packages\\fontawesome.sharp\\6.1.1\\fontawesome.sharp.6.1.1.nupkg.sha512"
   ],

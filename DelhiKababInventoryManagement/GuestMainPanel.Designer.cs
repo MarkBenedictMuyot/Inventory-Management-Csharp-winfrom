@@ -44,14 +44,13 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.panelcontent = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.productbox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.inventorybox)).BeginInit();
             this.panel3.SuspendLayout();
-            this.panelcontent.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -262,20 +261,18 @@
             // 
             // panelcontent
             // 
-            this.panelcontent.Controls.Add(this.panel5);
-            this.panelcontent.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelcontent.Location = new System.Drawing.Point(335, 87);
+            this.panelcontent.Location = new System.Drawing.Point(358, 87);
             this.panelcontent.Name = "panelcontent";
-            this.panelcontent.Size = new System.Drawing.Size(1191, 634);
+            this.panelcontent.Size = new System.Drawing.Size(1168, 634);
             this.panelcontent.TabIndex = 7;
             // 
-            // panel5
+            // panel4
             // 
-            this.panel5.BackColor = System.Drawing.Color.RosyBrown;
-            this.panel5.Location = new System.Drawing.Point(6, 65);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(7, 67);
-            this.panel5.TabIndex = 3;
+            this.panel4.BackColor = System.Drawing.Color.SandyBrown;
+            this.panel4.Location = new System.Drawing.Point(338, 152);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(7, 67);
+            this.panel4.TabIndex = 4;
             // 
             // GuestMainPanel
             // 
@@ -283,6 +280,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1526, 721);
             this.ControlBox = false;
+            this.Controls.Add(this.panel4);
             this.Controls.Add(this.panelcontent);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panelcolor);
@@ -299,7 +297,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.inventorybox)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            this.panelcontent.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -320,7 +317,7 @@
         private FontAwesome.Sharp.IconPictureBox inventorybox;
         private Panel panel3;
         private Panel panelcontent;
-        private Panel panel5;
         private Button button1;
+        private Panel panel4;
     }
 }

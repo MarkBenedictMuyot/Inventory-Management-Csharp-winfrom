@@ -94,3 +94,15 @@ C:\Users\Mark\dev\DelhiKababInventoryManagement\DelhiKababInventoryManagement\ob
 C:\Users\Mark\dev\DelhiKababInventoryManagement\DelhiKababInventoryManagement\obj\Debug\net6.0-windows\DelhiKababInventoryManagement.ProductGuest.resources
 C:\Users\Mark\dev\DelhiKababInventoryManagement\DelhiKababInventoryManagement\obj\Debug\net6.0-windows\DelhiKababInventoryManagement.InventoryGuest.resources
 C:\Users\Mark\dev\DelhiKababInventoryManagement\DelhiKababInventoryManagement\obj\Debug\net6.0-windows\DelhiKababInventoryManagement.InventoryGuest1.resources
+C:\Users\Mark\OneDrive\Desktop\DelhiKababInventoryManagement\DelhiKababInventoryManagement\bin\Debug\net6.0-windows\FontAwesome.Sharp.dll
+C:\Users\Mark\OneDrive\Desktop\DelhiKababInventoryManagement\DelhiKababInventoryManagement\obj\Debug\net6.0-windows\DelhiKababInventoryManagement.AccountSetting.resources
+C:\Users\Mark\OneDrive\Desktop\DelhiKababInventoryManagement\DelhiKababInventoryManagement\obj\Debug\net6.0-windows\DelhiKababInventoryManagement.AdminMainPanel.resources
+C:\Users\Mark\OneDrive\Desktop\DelhiKababInventoryManagement\DelhiKababInventoryManagement\obj\Debug\net6.0-windows\DelhiKababInventoryManagement.GuestMainPanel.resources
+C:\Users\Mark\OneDrive\Desktop\DelhiKababInventoryManagement\DelhiKababInventoryManagement\obj\Debug\net6.0-windows\DelhiKababInventoryManagement.Inventory.resources
+C:\Users\Mark\OneDrive\Desktop\DelhiKababInventoryManagement\DelhiKababInventoryManagement\obj\Debug\net6.0-windows\DelhiKababInventoryManagement.InventoryGuest.resources
+C:\Users\Mark\OneDrive\Desktop\DelhiKababInventoryManagement\DelhiKababInventoryManagement\obj\Debug\net6.0-windows\DelhiKababInventoryManagement.InventoryGuest1.resources
+C:\Users\Mark\OneDrive\Desktop\DelhiKababInventoryManagement\DelhiKababInventoryManagement\obj\Debug\net6.0-windows\DelhiKababInventoryManagement.Order.resources
+C:\Users\Mark\OneDrive\Desktop\DelhiKababInventoryManagement\DelhiKababInventoryManagement\obj\Debug\net6.0-windows\DelhiKababInventoryManagement.ProductGuest.resources
+C:\Users\Mark\OneDrive\Desktop\DelhiKababInventoryManagement\DelhiKababInventoryManagement\obj\Debug\net6.0-windows\DelhiKababInventoryManagement.ProductTable.resources
+C:\Users\Mark\OneDrive\Desktop\DelhiKababInventoryManagement\DelhiKababInventoryManagement\obj\Debug\net6.0-windows\DelhiKababInventoryManagement.Supplier.resources
+C:\Users\Mark\OneDrive\Desktop\DelhiKababInventoryManagement\DelhiKababInventoryManagement\obj\Debug\net6.0-windows\DelhiKababInventoryManagement.csproj.CopyComplete

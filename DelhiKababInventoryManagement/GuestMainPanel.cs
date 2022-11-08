@@ -32,8 +32,8 @@ namespace DelhiKababInventoryManagement
             productGuest.BringToFront();
             productGuest.Show();
 
-            panel5.Height = iconButton1.Height;
-            panel5.Top = iconButton1.Top;
+            panel4.Height = iconButton1.Height;
+            panel4.Top = iconButton1.Top;
             lblTitleChildForm.Text = "Product";
             productbox.Visible = true;
             inventorybox.Visible = false;
@@ -50,8 +50,8 @@ namespace DelhiKababInventoryManagement
             inventory.Show();
 
 
-            panel5.Height = iconButton1.Height;
-            panel5.Top = iconButton1.Top;
+            panel4.Height = iconButton2.Height;
+            panel4.Top = iconButton2.Top;
             lblTitleChildForm.Text = "Inventory";
             productbox.Visible = false;
             inventorybox.Visible = true;
