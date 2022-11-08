@@ -95,5 +95,12 @@ namespace DelhiKababInventoryManagement
             welcomeForm.Show();
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var adminMainMenu = new AdminMenu();
+            adminMainMenu.Show();
+        }
     }
 }

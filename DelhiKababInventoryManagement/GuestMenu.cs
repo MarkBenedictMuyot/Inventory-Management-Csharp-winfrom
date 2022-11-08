@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FontAwesome.Sharp;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -34,6 +35,29 @@ namespace DelhiKababInventoryManagement
 
             welcomeForm.Show();
 
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var panel=new Panel();  
+            this.Hide();
+            var guestMainPanel = new GuestMainPanel();
+            guestMainPanel.Show();
+
+            
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var panel = new Panel();
+            this.Hide();
+            var guestMainPanel = new GuestMainPanel();
+            guestMainPanel.Show();
         }
     }
 }

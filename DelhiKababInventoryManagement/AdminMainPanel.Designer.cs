@@ -49,6 +49,7 @@
             this.lblTitleChildForm = new System.Windows.Forms.Label();
             this.productbox = new FontAwesome.Sharp.IconPictureBox();
             this.panelContent = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -275,6 +276,7 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(0)))), ((int)(((byte)(2)))));
+            this.panel3.Controls.Add(this.button1);
             this.panel3.Controls.Add(this.useraccountbox);
             this.panel3.Controls.Add(this.orderlistbox);
             this.panel3.Controls.Add(this.supplierbox);
@@ -295,7 +297,7 @@
             this.useraccountbox.IconColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.useraccountbox.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.useraccountbox.IconSize = 37;
-            this.useraccountbox.Location = new System.Drawing.Point(992, 30);
+            this.useraccountbox.Location = new System.Drawing.Point(942, 32);
             this.useraccountbox.Name = "useraccountbox";
             this.useraccountbox.Size = new System.Drawing.Size(44, 37);
             this.useraccountbox.TabIndex = 5;
@@ -309,7 +311,7 @@
             this.orderlistbox.IconColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.orderlistbox.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.orderlistbox.IconSize = 37;
-            this.orderlistbox.Location = new System.Drawing.Point(992, 30);
+            this.orderlistbox.Location = new System.Drawing.Point(942, 32);
             this.orderlistbox.Name = "orderlistbox";
             this.orderlistbox.Size = new System.Drawing.Size(44, 37);
             this.orderlistbox.TabIndex = 4;
@@ -323,7 +325,7 @@
             this.supplierbox.IconColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.supplierbox.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.supplierbox.IconSize = 37;
-            this.supplierbox.Location = new System.Drawing.Point(992, 30);
+            this.supplierbox.Location = new System.Drawing.Point(942, 32);
             this.supplierbox.Name = "supplierbox";
             this.supplierbox.Size = new System.Drawing.Size(44, 37);
             this.supplierbox.TabIndex = 3;
@@ -337,7 +339,7 @@
             this.inventorybox.IconColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.inventorybox.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.inventorybox.IconSize = 37;
-            this.inventorybox.Location = new System.Drawing.Point(992, 30);
+            this.inventorybox.Location = new System.Drawing.Point(942, 32);
             this.inventorybox.Name = "inventorybox";
             this.inventorybox.Size = new System.Drawing.Size(44, 37);
             this.inventorybox.TabIndex = 2;
@@ -347,7 +349,7 @@
             // 
             this.lblTitleChildForm.AutoSize = true;
             this.lblTitleChildForm.Font = new System.Drawing.Font("Segoe UI Semibold", 8.142858F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblTitleChildForm.Location = new System.Drawing.Point(1042, 30);
+            this.lblTitleChildForm.Location = new System.Drawing.Point(992, 32);
             this.lblTitleChildForm.Name = "lblTitleChildForm";
             this.lblTitleChildForm.Size = new System.Drawing.Size(83, 28);
             this.lblTitleChildForm.TabIndex = 1;
@@ -362,7 +364,7 @@
             this.productbox.IconColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.productbox.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.productbox.IconSize = 37;
-            this.productbox.Location = new System.Drawing.Point(992, 30);
+            this.productbox.Location = new System.Drawing.Point(942, 32);
             this.productbox.Name = "productbox";
             this.productbox.Size = new System.Drawing.Size(44, 37);
             this.productbox.TabIndex = 0;
@@ -376,11 +378,27 @@
             this.panelContent.Size = new System.Drawing.Size(1163, 621);
             this.panelContent.TabIndex = 3;
             // 
+            // button1
+            // 
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button1.Location = new System.Drawing.Point(1138, 21);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(41, 48);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "x";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // AdminMainPanel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 30F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1526, 721);
+            this.ControlBox = false;
             this.Controls.Add(this.panelContent);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panelcolor);
@@ -389,7 +407,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "AdminMainPanel";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "MainPanel";
             this.Load += new System.EventHandler(this.AdminMainPanel_Load);
             this.flowLayoutPanel1.ResumeLayout(false);
             this.flowLayoutPanel1.PerformLayout();
@@ -430,5 +447,6 @@
         private FontAwesome.Sharp.IconPictureBox orderlistbox;
         private FontAwesome.Sharp.IconPictureBox supplierbox;
         private Panel panelContent;
+        private Button button1;
     }
 }
